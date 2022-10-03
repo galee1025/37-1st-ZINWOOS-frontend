@@ -1,8 +1,16 @@
-# 1차프로젝트-ZINWOOS👏🏻
+## 1차프로젝트👏🏻
+<br>
+<br>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/104541695/193513902-c62a19f1-ef03-4a02-a79d-c561bef68c62.png"></p>
+
+<br>
+<br>
+
 
 ## 팀원
 
-프론트엔드 - 강진수, 이가을, 조재현, 안나라  
+프론트엔드 - <b>이가을</b>, 조재현, 안나라, 강진수  
 백엔드 - 김성식, 최진우, 정인호
 
 ## 프로젝트명
@@ -28,59 +36,37 @@ ZINWOOS
 
 ### **프로젝트 선정이유**
 
-- UI가 심플해서 기능구현에 집중하기 좋을 것 같았습니다.
+- 심플한 UI로 1차 프로젝트로 적당해 보였다.
 
 ### 사이트 이미지
 
-https://github.com/ChoiRamsey/zinwoos/blob/main/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%AE%E1%84%89%E1%85%B3.png
+<img width="1439" alt="진우스" src="https://user-images.githubusercontent.com/104541695/193511969-a614cd24-73f2-431e-a49c-70f7a15edea6.png">
 
 ## **적용 기술 및 구현 기능**
 
 ### **적용 기술**
 
-> Front-End : React.js, sass, RESTful API
+> Front-End : <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/> RESTful API
 
-### **구현 기능**
+<br>
+
+## **담당한 부분**
 
 ### **공통**
 
-- 회원가입 / 로그인
-- Nav
 - Footer
 
 ### **메인페이지**
 
-- 신상품 api 호출하여 구현
-- 캐러셀
-
-### 상품목록
-
-- api 호출
-  - 카테고리별 상품목록 정렬(쿼리스트링)
-  - sort / 필터링
-
-### 상세페이지
-
-- api 호출
-  - 상품정보(금액, 이름, 최대수량…)
-  - 옵션 및 수량 추가
-  - 위시리스트 추가
-  - 장바구니 추가
-- 상세페이지 하위 탭 메뉴
-
-### 장바구니
-
-- api호출
-  - 장바구니 불러오기
-  - 주문하기(서버에 해당 사용자의 주문정보 전달)
-  - 삭제하기(선택삭제, 전체삭제)
-  - 수량변경(서버에 실시간 반영)
+- 무한 캐러셀 구현
+- 신상품 api 호출
 
 ### 관심상품
 
-- api호출
-  - 관심상품 불러오기
-  - 삭제하기
+- 상세페이지에서 클릭한 상품 담기
+- 삭제 : restful 서버에 DELETE 요청 후 GET
+
+<br>
 
 ## **Reference**
 
