@@ -59,12 +59,15 @@ ZINWOOS
 ### **메인페이지**
 
 - 무한 캐러셀 구현
+  - useEffect / setInterval
 - 신상품 api 호출
+  - fetch : GET
 
 ### 관심상품
 
 - 상세페이지에서 클릭한 상품 담기
-- 삭제 : restful 서버에 DELETE 요청 후 GET
+- 관심상품에서 삭제하기
+  - fetch : DELETE 요청 후 GET
 
 <br>
 
